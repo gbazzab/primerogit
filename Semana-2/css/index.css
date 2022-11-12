@@ -1,7 +1,7 @@
 .body{
     background-color: #20232a;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: monospace;
     margin: 0;
 }
 
@@ -37,12 +37,46 @@
     width: min(100%,256px);
     object-fit: cover;
 }
-.menu{
+
+.card__body{
     display: flex;
-    list-style: none;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #3f4452af;
+    padding: 1rem;
+}
+
+.card__title{
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card__subtitle{
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
 
 }
 
-li{
-    padding-left: 1.5rem;
+.card__text{
+    margin: 0;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.card__footer{
+    background-color: #20232ace;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
