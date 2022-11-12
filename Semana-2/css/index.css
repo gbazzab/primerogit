@@ -17,15 +17,26 @@
 }
 
 .card{
-    max-width: 352px;
-    background-color: #20232ace;
+    max-width: 400px;
     margin: auto;
     overflow: hidden;
     border: 0.125rem solid whitesmoke;
     border-radius: 1rem;
-    text-align: center;
+    
 }
 
+.card__header{
+    background-color: #20232ace;
+    text-align: center;
+    padding: 1rem;
+}
+
+.card__img{
+    background-color: #1a4099ce;
+    border-radius: 50%;
+    width: min(100%,256px);
+    object-fit: cover;
+}
 .menu{
     display: flex;
     list-style: none;
@@ -33,5 +44,5 @@
 }
 
 li{
-    padding-left: 1rem;
+    padding-left: 1.5rem;
 }
