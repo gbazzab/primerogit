@@ -25,6 +25,12 @@
     
 }
 
+.card:hover{
+    border: 0.25rem solid rgb(42, 84, 173);
+    
+    
+}
+
 .card__header{
     background-color: #20232ace;
     text-align: center;
@@ -49,13 +55,13 @@
 .card__title{
     margin: 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .card__subtitle{
     margin: 0;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
 
 }
 
@@ -63,6 +69,14 @@
     margin: 0;
     text-align: justify;
     font-size: 1rem;
+}
+
+.card__text::before{
+    content: '😎';
+}
+
+.card__text::after{
+    content: '😈';
 }
 
 .card__footer{
